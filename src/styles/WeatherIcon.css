@@ -1,0 +1,24 @@
+.weather-icon {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 1.5em;
+  }
+  
+  .weather-icon.sunny {
+    background: linear-gradient(to right, #fceabb, #f8b500);
+  }
+  
+  .weather-icon.cloudy {
+    background: linear-gradient(to right, #bdc3c7, #2c3e50);
+  }
+  
+  .weather-icon.rain {
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+  }
+  
+  .weather-icon.storm {
+    background: linear-gradient(to right, #2c3e50, #4ca1af);
+  }
+  
